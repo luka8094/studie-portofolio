@@ -1,3 +1,2 @@
-<h1>GitHub pages Portofolio<h1>
-<hr></hr>
-  <p>Repository specifically, made for student work related portofolio and profile</p>
+<h1>GitHub pages portfolio<h1>
+<p>Repository specifically, made for student work related portfolio and profile.</p>
