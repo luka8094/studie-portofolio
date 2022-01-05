@@ -1,7 +1,9 @@
 @import "global.css";
 @import "main.css";
 @import "profile.css";
+@import "projects.css";
 @import "cv.css";
+@import "mediaq.css";
 
 main{
     display: flex;

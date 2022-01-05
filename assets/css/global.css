@@ -29,11 +29,16 @@ p{
 nav{
     display: flex;
     flex-direction: row;
+    position: fixed;
+    height: fit-content;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
     justify-content: space-between;
 }
 
 .name{
     font-size: 1.1em;
+    background: rgba(0,0,0,0.0);
 }
 
 .menu-icon{

@@ -1,0 +1,14 @@
+.projects-container{
+    display: grid;
+    width: 600px;
+    height: 400px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
+    background: white;
+}
+
+.project{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    background: grey;
+}
