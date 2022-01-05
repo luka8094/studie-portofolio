@@ -2,20 +2,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: lightblue;
 }
 
 main{
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    width: fit-content;
     justify-content: center;
     align-items: center;
 }
 
 section{
     display: flex;
-    width: 500px;
-    height: 200px;
     flex-direction: column;
+    width: 500px;
+    height: fit-content;
+    margin-bottom: 25px;
     background: chartreuse;
-    border-bottom: 1px dotted white;
+    border: 1px dashed black;
+}
+
+.profile-img-placeholder{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background: red;
+    border-radius: 100px;
+    align-self: center;
+}
+
+.skills-section{
+    display: flex;
+}
+
+.skills-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-list ul{
+    list-style: none;
+    margin-left: 75px;
 }
