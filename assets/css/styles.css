@@ -1,9 +1,4 @@
-*{ 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: lightblue;
-}
+@import "global.css";
 
 main{
     display: flex;
@@ -20,7 +15,7 @@ section{
     width: 500px;
     height: fit-content;
     margin-bottom: 25px;
-    background: chartreuse;
+    background: lightblue;
     border: 1px dashed black;
 }
 
@@ -31,6 +26,18 @@ section{
     background: red;
     border-radius: 100px;
     align-self: center;
+    overflow: hidden;
+}
+
+.profile-img{
+    position: relative;
+    width: inherit;
+    height: 100%;
+    background: transparent url("../img/profile_image.png") no-repeat scroll 0% 0% / cover;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    top: -0.1%;
+    left: -0.01%;
 }
 
 .skills-section{
@@ -45,4 +52,11 @@ section{
 .skills-list ul{
     list-style: none;
     margin-left: 75px;
+}
+
+.splash-center ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
 }
