@@ -16,9 +16,30 @@
 }
 
 h1{
-    font-family: 'Ostrich Sans'; 
+    /*font-family: 'Ostrich Sans';*/ 
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
 }
 
+li, 
 p{
+    font-family: Helvetica, sans-serif;
+}
 
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 1.1em;
+}
+
+.menu-icon{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background: white;
+    border: 1px dashed black;
 }

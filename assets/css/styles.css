@@ -1,4 +1,7 @@
 @import "global.css";
+@import "main.css";
+@import "profile.css";
+@import "cv.css";
 
 main{
     display: flex;
@@ -17,82 +20,4 @@ section{
     margin-bottom: 25px;
     background: lightblue;
     border: 1px dashed black;
-}
-
-.profile{
-    display: flex;
-    flex-direction: column;
-    height: 650px;
-}
-
-.profile-main{
-    display: flex;
-    height: fit-content;
-    flex-direction: row;
-}
-
-.side-line{
-    display: flex;
-    flex-direction: column;
-    height: 650px;
-    width: 300px;
-    font-size: 3em;
-    font-weight: bold;
-    border: 1px dashed black;
-}
-
-.side-line p:nth-child(2){
-    margin-left: 20%;
-}
-
-.side-line p:nth-child(4){
-    position: relative;
-    left: 5%;
-    top: -5%;
-    transform-origin: left;
-    transform: rotate(90deg);
-    background: rgba(255,255,255,0);
-}
-
-.profile-img-placeholder{
-    display: flex;
-    height: 200px;
-    width: 200px;
-    background: red;
-    border-radius: 100px;
-    align-self: center;
-    overflow: hidden;
-    border: 5px solid white;
-}
-
-.profile-img{
-    position: relative;
-    width: inherit;
-    height: 100%;
-    background: transparent url("../img/profile_image.png") no-repeat scroll 0% 0% / cover;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-    top: -0.1%;
-    left: -0.01%;
-}
-
-.skills-section{
-    display: flex;
-}
-
-.skills-list{
-    display: flex;
-    flex-direction: row;
-}
-
-.skills-list ul{
-    list-style: none;
-    margin-left: 75px;
-}
-
-.splash-center ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-between;
 }

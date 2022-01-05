@@ -1,0 +1,17 @@
+/* splash properties */
+.splash-center{
+    font-weight: bold;
+    font-size: 2.1em;
+}
+
+.splash-center ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.splash-center ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
